@@ -1,0 +1,41 @@
+.skills-container {
+  width: 100%;
+}
+
+.skill-level-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: 100%;
+  padding: 16px 0px 32px 0px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--color-surface);
+  color: var(--text-color);
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  cursor: default;
+}
+
+.skill-item:hover {
+  transform: scale(1.05);
+  background-color: var(--color-surface-hover)
+}
+
+.skill-level-title {
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.skill-level-description {
+  color: var(--secondary-text-color);
+}

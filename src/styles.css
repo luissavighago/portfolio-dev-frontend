@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap";
+
+:root {
+  /* Backgrounds */
+  --color-bg-primary: #1E1F20;
+  --color-bg-disabled: #424242;
+  --color-bg-secondary: #A3A3A3;
+  --color-bg-dark: #0e0e10;
+
+  /* Cores principais */
+  --primary-color: #1E1F20;
+  --secondary-color: #A3A3A3;
+
+   /* Cores de texto */
+  --text-color: #FFFFFF;
+  --secondary-text-color: #A3A3A3;
+
+  /* Componentes (Superfícies)*/
+  --color-surface: #2b2b2b;
+  --color-surface-hover: #3a3a3a;
+
+  /* Cores de destaque */
+  --highlight-color: #BB72E9;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: var(--color-bg-primary);
+  height: 100%;
+}
+
+.highlight{
+  color: var(--highlight-color);
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+/* Barra de rolagem */
+/* Estiliza scrollbars no Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-bg-disabled);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* Opcional: quando estiver hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-bg-secondary);
+}

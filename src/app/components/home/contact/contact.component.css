@@ -1,0 +1,36 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 400px;
+  margin: 0 auto;
+  color: var(--secondary-text-color);
+  padding: 40px 0 100px 0;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-surface);
+  padding: 18px 24px;
+  border-radius: 8px;
+  color: var(--color-text-primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.contact-link:hover {
+  background-color: var(--color-surface-hover);
+}
+
+.link-description {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon {
+  font-size: 1.5rem;
+}

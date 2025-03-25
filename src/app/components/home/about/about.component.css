@@ -1,0 +1,9 @@
+.about-container {
+  color: var(--secondary-text-color);
+}
+
+.about-container p {
+  line-height: 1.7;
+  font-size: 1.1rem;
+  padding-bottom: 24px;
+}

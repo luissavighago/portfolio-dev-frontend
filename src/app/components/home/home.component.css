@@ -1,0 +1,21 @@
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.section {
+  width: 1000px;
+}
+
+.highlight-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--color-bg-dark);
+  padding: 32px 0px;
+}
