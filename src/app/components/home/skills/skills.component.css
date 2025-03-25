@@ -39,3 +39,17 @@
 .skill-level-description {
   color: var(--secondary-text-color);
 }
+
+@media screen and (max-width: 850px) {
+  .skill-level-title {
+    font-size: 1rem;
+  }
+
+  .skill-level-description {
+    font-size: 0.8rem;
+  }
+
+  .skill-item {
+    font-size: 0.8rem;
+  }
+}

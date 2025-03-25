@@ -7,3 +7,9 @@
   font-size: 1.1rem;
   padding-bottom: 24px;
 }
+
+@media screen and (max-width: 850px) {
+  .about-container p {
+    font-size: 0.9rem;
+  }
+}
