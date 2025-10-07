@@ -2,14 +2,19 @@
   color: var(--secondary-text-color);
 }
 
-.about-container p {
+.about-container p, ul {
   line-height: 1.7;
   font-size: 1.1rem;
   padding-bottom: 24px;
 }
 
+.about-list {
+  list-style: none;
+  padding-left: 20px;
+}
+
 @media screen and (max-width: 850px) {
-  .about-container p {
+  .about-container p, ul {
     font-size: 0.9rem;
   }
 }
