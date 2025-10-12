@@ -9,7 +9,7 @@
 .skills-container {
   display: flex;
   align-items: flex-start;
-  gap: 16px;
+  gap: 24px;
 }
 
 .skill-item-container {
