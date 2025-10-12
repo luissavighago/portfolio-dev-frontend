@@ -1,0 +1,73 @@
+.skill-section-container {
+    width: 100%;
+    height: 352px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-surface);
+    padding: 24px 16px;
+    border-radius: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-section-container:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px var(--color-bg-soft);
+}
+
+.skill-level-title-container {
+    margin: 16px 0px;
+    display: flex;
+    font-size: 1rem;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.skill-level-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding: 32px;
+    font-size: 2rem;
+    background-color: var(--color-bg-soft);
+    color: var(--accent-color);
+    mask-repeat: no-repeat;
+    mask-size: contain;
+    mask-position: center;
+}
+
+.skill-level-title {
+    color: var(--highlight-color);
+    font-weight: bold;
+}
+
+.skill-level-description {
+    color: var(--secondary-text-color);
+    font-size: 0.9rem;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 4px;
+}
+
+.skill-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    font-size: 0.8rem;
+    color: var(--text-color);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    list-style-type: none;
+    margin: 4px 0px;
+    cursor: default;
+}
+
+.skill-item:hover {
+    transform: scale(1.05);
+    color: var(--highlight-color);
+}
