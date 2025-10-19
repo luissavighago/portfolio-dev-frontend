@@ -9,6 +9,7 @@ import { MatIconModule } from '@angular/material/icon';
   styleUrl: './skill-section.component.css'
 })
 export class SkillSectionComponent {
+  @Input() icon!: string;
   @Input() level!: string;
   @Input() description!: string;
   @Input() skills!: string[];
